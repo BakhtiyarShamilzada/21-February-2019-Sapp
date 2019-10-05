@@ -1,0 +1,29 @@
+#app-now
+{
+	background: #F2F3F8;
+	.col-lg-6:first-child
+	{
+		background: #E1EFE9;
+	}
+	.col-md-12:first-child
+	{
+		background: #E1EFE9;
+	}
+	h1
+	{
+		font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+		font-size: $mainFontSize*3.7;
+	}
+	span
+	{
+		font-size: $mainFontSize*1.2;
+	}
+	button
+	{
+		@include button($mainColor3, $mainColor, $mainColor, $mainColor3, $mainColor2, $mainColor2);
+	}
+	::placeholder
+	{
+		font-size: $mainFontSize*1.1;
+	}
+}

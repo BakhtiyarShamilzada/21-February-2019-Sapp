@@ -1,0 +1,27 @@
+#mobile
+{
+	.content
+	{
+		h1
+		{
+			font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+			line-height: 1.5;
+			font-size: $mainFontSize*3.7;
+		}
+		p
+		{
+			line-height: 1.7;
+			font-size: $mainFontSize*1.1;
+			color:#9b9b9b;
+			letter-spacing: 0px;
+		}
+	}
+	.button
+	{
+		&:hover
+		{
+			cursor: pointer;
+			opacity: 0.6;
+		}
+	}
+}

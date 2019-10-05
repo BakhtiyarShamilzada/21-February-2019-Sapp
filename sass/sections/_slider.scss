@@ -1,0 +1,26 @@
+#slider
+{
+	background: url(../images/slider.jpg);
+	background-size: cover;
+	height: 850px;
+	.content
+	{
+		h1
+		{
+			font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+			font-size: $mainFontSize*5.4;
+		}
+		h2
+		{
+			font-size: $mainFontSize*3.5;
+		}
+		button:first-child
+		{
+			@include button($mainColor3, $mainColor, $mainColor, $mainColor3, $mainColor2, $mainColor2);
+		}
+		button:last-child
+		{
+			@include button($mainColor3, none, $mainColor3, $mainColor3, $mainColor, $mainColor);
+		}
+	}
+}

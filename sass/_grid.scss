@@ -1,0 +1,31 @@
+$normalWidth:1200px;
+$fullWidth:100%;
+$rowGap:10px;
+$columnGap:10px;
+.container{
+	width: $normalWidth;
+	margin:0 auto;
+}
+
+.container-fluid{
+	width:$fullWidth;
+}
+.row{
+	margin-bottom:2*$rowGap;
+}
+.clear{
+	clear:both;
+}
+
+img{
+	width:$fullWidth;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} { 
+  	width:$fullWidth/12 * $i;
+  	padding:$columnGap;
+	box-sizing: border-box;
+	float:left;
+   }
+}

@@ -1,0 +1,21 @@
+#portfolio
+{
+	h1
+	{
+		font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+		font-size: $mainFontSize*3.7;
+		letter-spacing: 5px;
+	}
+	button
+	{
+		font-size: $mainFontSize*0.9;
+	}
+	.btn-bg
+	{
+		background: $mainColor;
+	}
+	.img
+	{
+		margin: -11px -15px;
+	}
+}

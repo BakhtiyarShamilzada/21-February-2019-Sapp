@@ -1,0 +1,47 @@
+header
+{
+	background: #88898E;
+	.header-top
+	{
+		span
+		{
+			font-size: $mainFontSize*1.1;
+			letter-spacing: .5px;
+		}
+		i
+		{
+			font-size: $mainFontSize*2;
+		}
+		a
+		{
+			@include a($mainFontSize*1.1, none, $mainColor3, $mainColor4, $letterSpacing);
+			i
+			{
+				font-size: $mainFontSize*1.1;
+			}
+		}
+	}
+	.header-bottom
+	{
+		ul
+		{
+			li
+			{
+				box-sizing: border-box;
+				a
+				{
+					@include a($mainFontSize*0.9, $mainFontWeight*1.4, $mainColor3, none, $letterSpacing*2.2);
+					transition: $transition*2;
+					border: 1px solid rgba(255, 255, 255, .0);
+					border-width: 10%;
+					&:hover
+					{
+						box-sizing: border-box;
+						border: 1px solid $mainColor3;
+						border-width: 100%;
+					}
+				}
+			}
+		}
+	}
+}

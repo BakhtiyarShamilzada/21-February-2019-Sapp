@@ -1,0 +1,41 @@
+#services
+{
+	h1
+	{
+		font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+		font-size: $mainFontSize*3.7;
+	}
+	.item
+	{
+		margin: 10px;
+		position: relative;
+		.icon
+		{
+			background: $mainColor3;
+			width: 90px;
+			height: 40px;
+			position: absolute;
+			top: -20px;
+			right: 50px;
+			i
+			{
+				color: $mainColor;
+				font-size: $mainFontSize*3;
+			}
+		}
+		h2
+		{
+			letter-spacing: 2px;
+			line-height: 1.4;
+			font-size: $mainFontSize*1.4;
+		}
+		p
+		{
+			max-width: 90%;
+			letter-spacing: .5px;
+			line-height: 1.7;
+			font-size: $mainFontSize*1.1;
+			color:#9b9b9b;
+		}
+	}
+}

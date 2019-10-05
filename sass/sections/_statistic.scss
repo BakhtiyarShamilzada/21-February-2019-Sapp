@@ -1,0 +1,46 @@
+#statistic
+{
+	background: url(../images/bg-image-2.jpg);
+	background-position: 0% 55%;
+	background-size:cover;
+	height: 466px;
+	h1
+	{	
+		font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+		color: $mainColor3;
+		font-size: $mainFontSize*3.7;
+		letter-spacing: 5px;
+	}
+	p
+	{
+		font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+		font-size: $mainFontSize*1.4;
+		color:$mainColor3;
+	}
+	.item
+	{
+		i
+		{
+			position: absolute;
+			left: -40px;
+			top: 30px;
+			font-size: $mainFontSize*2.4;
+			color: $mainColor3;
+		}
+		span
+		{
+			font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+			position: relative;
+			font-size: $mainFontSize*4.6;
+			color: $mainColor3;
+		}
+		small
+		{
+			position: absolute;
+			right: -25px;
+			top: 30px;
+			font-size: $mainFontSize*2.8;
+			color: $mainColor3;
+		}
+	}
+}

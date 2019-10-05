@@ -1,0 +1,48 @@
+.clients
+{
+	background: #F2F3F8;
+	h1
+	{
+		font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+		font-size: $mainFontSize*3.7;
+		letter-spacing: 5px;
+	}
+	.media
+	{
+		background: $mainColor3;
+		i
+		{
+			font-size: $mainFontSize*2.5;
+			position: absolute;
+			left: -50px;
+			color: $mainColor;
+			transform: rotateX(180deg)!important;
+		}
+		img
+		{
+			margin-left: -40px;
+		}
+		.media-body
+		{
+			box-sizing: border-box;
+			margin-left: -40px;
+			h2
+			{
+				font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+				font-size: $mainFontSize*1.8;
+			}
+			h3
+			{
+				font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+				font-size: $mainFontSize*1.2;
+			}
+			p
+			{
+				position: relative;
+				font-size: $mainFontSize*1.1;
+				letter-spacing: .5px;
+				line-height: 1.7;
+			}
+		}
+	}
+}

@@ -1,0 +1,104 @@
+#about-us
+{
+	.advantages
+	{
+
+		ul
+		{
+			li
+			{
+				&:hover
+				{
+					background: #f2f3f8;
+				}
+				.media
+				{
+					transition: margin-left .1s;
+					&:hover
+					{
+						cursor: pointer;
+						margin-left: 30px;
+					}
+				}
+			}
+		}
+		button
+		{
+			@include button(none, none, none, $mainColor3, $mainColor2, $mainColor2);
+		}
+		i
+		{
+			font-size: $mainFontSize*3;
+			color: $mainColor;
+		}
+		h1
+		{
+			font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+			font-size: $mainFontSize*3.7;
+		}
+		h2
+		{
+			font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+			font-size: $mainFontSize*1.8;
+		}
+		p
+		{
+			font-size: $mainFontSize*1.1;
+		}
+		.fa-tag
+		{
+			transform: rotateY(180deg);
+		}
+	}
+	.video-preview
+	{
+		overflow: hidden;
+		img
+		{
+			transition: 1.5s;
+			transform: scale(1);
+		}
+		&:hover
+		{
+			img
+			{
+				transform: scale(1.1);
+			}
+		}
+		h3
+		{
+			font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+			font-size: $mainFontSize*3;
+		}
+	}
+	
+	.card-img-overlay
+	{
+		.icon
+		{
+			position: relative;
+		}
+		button
+		{
+			background: rgba(255, 255, 255, .5);
+			&:hover
+			{
+				background: $mainColor3;
+				.fa-play
+				{
+					color: $mainColor;
+				}
+			}
+		}
+
+		.fa-play
+		{
+			position: absolute;
+			top: 35px;
+			left: 40px;
+			color: $mainColor3;
+			font-size: $mainFontSize*2;
+		}	
+	}
+	
+}

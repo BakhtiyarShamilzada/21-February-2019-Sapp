@@ -1,0 +1,19 @@
+@import 'lib/reset';
+@import 'lib/variables';
+@import 'lib/common';
+@import 'lib/mixins';
+
+// import sections
+
+@import 'sections/header';
+@import 'sections/slider';
+@import 'sections/app-now';
+@import 'sections/about-us';
+@import 'sections/pricing';
+@import 'sections/mobile';
+@import 'sections/software';
+@import 'sections/services';
+@import 'sections/statistic';
+@import 'sections/clients';
+@import 'sections/portfolio';
+@import 'sections/footer';

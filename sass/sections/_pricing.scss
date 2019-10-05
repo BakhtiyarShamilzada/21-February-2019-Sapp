@@ -1,0 +1,63 @@
+#pricing
+{
+	background: #F2F3F8;
+	h1
+	{
+		font-family: space mono,Menlo,Monaco,Consolas,courier new,monospace;
+		font-size: $mainFontSize*3.7;
+	}
+	span
+	{
+		font-size: $mainFontSize*1.1;
+	}
+	.content
+	{	
+		position: relative;
+		margin: -10px;
+		z-index: 0;
+		background: $mainColor3;
+		span
+		{
+			color:#9b9b9b;
+		}
+		button
+		{
+			@include button(none, none, none, $mainColor3, $mainColor2, $mainColor2);
+		}
+	}
+	.content-center
+	{
+		position: relative;
+		margin: -30px;
+		padding: 20px;
+		z-index: 1;
+		background: $mainColor;
+		button
+		{
+			@include button($mainColor3, $mainColor6, $mainColor6, $mainColor5, $mainColor3, $mainColor3);
+		}
+	}
+	h2
+	{
+		font-size: $mainFontSize*1.8;
+	}
+	sup
+	{
+		font-size: $mainFontSize*1.8;
+	}
+	.price
+	{
+		font-size: $mainFontSize*3.7;
+	}
+	ul
+	{
+		li
+		{
+			.number
+			{
+				font-weight: bold;
+				font-size: $mainFontSize*1.1;
+			}
+		}
+	}
+}

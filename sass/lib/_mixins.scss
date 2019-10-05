@@ -1,0 +1,68 @@
+@mixin button($color, $background, $borderColor, $hoverColor, $hoverBgColor, $hoverBrColor)
+{
+	color: $color;
+	background: $background;
+	border: 1px solid $borderColor;
+	padding: 12px 25px;
+	font-size: 14px;
+	line-height: 17px;
+	font-weight: $mainFontWeight;
+	transition: $transition;
+	text-transform: uppercase;
+	&:hover
+	{	
+		cursor: pointer;
+		background: $hoverBgColor;
+		color: $hoverColor;
+		border-color: $hoverBrColor;
+	}
+}
+@mixin h1($fontSize, $fontWeight, $color, $lineHeight)
+{
+	font-size: $fontSize;
+	font-weight: $fontWeight;
+	color: $color;
+	line-height: $lineHeight;
+	text-transform: uppercase;
+}
+@mixin h2($fontSize, $fontWeight, $color, $lineHeight)
+{
+	font-size: $fontSize;
+	font-weight: $fontWeight;
+	color: $color;
+	line-height: $lineHeight;
+	text-transform: uppercase;
+}
+@mixin i($fontSize, $fontWeight, $color, $hoverColor, $lineHeight)
+{
+	font-size: $fontSize;
+	line-height: $lineHeight;
+	color: $color;
+	font-weight: $fontWeight;
+	&:hover
+	{
+		color: $hoverColor;
+	}
+}
+@mixin a($fontSize, $fontWeight, $color, $hoverColor, $spacing)
+{
+	font-size: $fontSize;
+	line-height: $lineHeight;
+	color: $color;
+	letter-spacing: $spacing;
+	font-weight: $fontWeight;
+	transition: $transition;
+	&:hover
+	{
+		text-decoration: none;
+		color: $hoverColor;
+	}
+}
+@mixin p($fontSize, $color, $lineHeight)
+{
+	color: $color;
+	font-style: $mainFontStyle;
+	font-weight: $mainFontWeight;
+	font-size: $fontSize;
+	line-height: $lineHeight;
+}
